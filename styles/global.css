@@ -14,7 +14,7 @@ button {
 }
 
 header {
-    background: url('../public/nav-bg.png') no-repeat;
+    background: url('../assets/nav-bg.png') no-repeat;
     background-size: cover;
     height: 450px;
     
