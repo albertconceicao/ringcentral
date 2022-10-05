@@ -9,13 +9,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ring Central</title>
     <link rel="stylesheet" href="styles/global.css">
+    <style>
+        div.swoogo-reg-progress.steps-begin {
+            display: none;
+        }
+        div#header-wrap.jumbotron.site-background {
+            display: none;
+       }
+    </style>
+
+    <script>
+        let backgroundNav = document.querySelector('div#header-wrap.jumbotron.site-background');
+        let formSteps = document.querySelector('.swoogo-reg-progress.steps');
+        let navBar = document.querySelector('nav.navbar.navbar-static-top');
+        navBar.style.display = 'none';
+        backgroundNav.style.display = 'none';
+        formSteps.style.display = 'none';
+    </script>
 </head>
 <body>
     <header>
         <section class="container">
 
             <nav>
-                <img src="./assets/" alt="">
+                <img src="./assets/logo.png" alt="">
                 <ul>
                     <li>
                         <a href="">Login</a>
